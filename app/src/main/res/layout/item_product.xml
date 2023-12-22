@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_ID_Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id prd"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_Name_Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="prd name"
+        android:textColor="#0C0C0C"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txt_Price_Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textColor="#0C0C0C"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txt_ID_Cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id cat"
+        android:textColor="#0C0C0C"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txt_Name_Cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name cat"
+        android:textColor="#0C0C0C"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:layout_marginRight="5dp"
+            android:id="@+id/btn_Sua_SP"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoá"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn_Xoa_SP"/>
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>

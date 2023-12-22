@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edt_TenSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Sản Phẩm"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_GiaSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá Sản Phẩm"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+    <Spinner
+        android:id="@+id/spinner_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cat"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_themSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Sản Phẩm"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:id="@+id/rv_product"/>
+
+
+</LinearLayout>

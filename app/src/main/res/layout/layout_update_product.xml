@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="10dp"
+    android:background="#F3E5F5"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Update product"
+        android:textColor="#64B5F6"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edt_idcat"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:hint="id"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:textSize="20sp" />-->
+
+    <EditText
+        android:id="@+id/edtUD_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="product name"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtUD_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="price"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerUD_id_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="id cat"
+        android:padding="10dp"
+        android:textSize="20sp" />
+    <!--    <EditText-->
+    <!--        android:id="@+id/edtcat_name"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:hint="cat name"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:textSize="20sp" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnUpdateprdNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#4DB6AC"
+            android:text="Update now"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancelUDprd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#4DD0E1"
+            android:text="Cancel"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
